@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="js/wpbridge.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+
+<title>pickIt</title>
+</head>
+<body>
+    <p>Vibrate in Miliseconds</p>
+    <input size="35" type="number" name="Vibrate">
+    <input size="35" type="button" value="Vibrieren" onclick="Device.vibrate(Vibrate.value)">
+    <br/> <br/>
+	<input size="35" type="button" value="Scan Barcode" onclick="Media.scanBarcode()">
+    <br /> <br />
+    <input size="35" type="button" value="GoBack" onclick="Device.GoBack()">
+</body>
+</html>

@@ -1,0 +1,1 @@
+C:\Users\B001\documents\visual studio 2013\Projects\ShowCaseNavigationApp\ShowCaseNavigationApp\ShowCaseNavigationApp.csproj;x86
