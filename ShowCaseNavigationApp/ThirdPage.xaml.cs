@@ -21,6 +21,8 @@ namespace ShowCaseNavigationApp
         public ThirdPage()
         {
             this.InitializeComponent();
+
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Disabled;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
